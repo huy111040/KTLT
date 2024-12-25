@@ -1,4 +1,5 @@
 package buoi7;
+
 import java.util.Scanner;
 
 public class Buoi7 {
@@ -28,7 +29,7 @@ public class Buoi7 {
             try {
                 System.out.print(" Nhập số tuổi ");
                 tuoi = Integer.parseInt(sc.nextLine());
-                if (tuoi>=0 && tuoi<=150) {
+                if (tuoi >= 0 && tuoi <= 150) {
                     break;
                 } else {
                     System.out.println("Tuổi ko hợp lệ nằm trong khoảng 0-150");

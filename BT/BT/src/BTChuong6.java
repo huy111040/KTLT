@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class BT {
+public class BTChuong6 {
     public static void inTamGiacVuong(int n) {
         for (int i = 0; i <= n; i++) {
             for (int j = 1; j <= i; j++) {
@@ -100,8 +100,8 @@ public class BT {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         System.out.println();
-        System.out.println("Nhập lựa chọn:");
-        System.out.print("1. In tam giác vuông với ký tự *" +
+        System.out.print("Nhập lựa chọn:" +
+                "\n1. In tam giác vuông với ký tự *" +
                 "\n2. In tam giác vuông ngược với ký tự *" +
                 "\n3. In tam giác vuông với các số" +
                 "\n4. In tam giác vuông ngược với các số" +
